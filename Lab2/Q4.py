@@ -1,0 +1,15 @@
+import turtle
+x, y = eval(input("Enter x and y for center: "))
+radius = int(input("Enter the radius: "))
+area = 3.14159 * radius * radius
+turtle.speed(1)
+turtle.penup()
+turtle.goto(x, y)
+turtle.write(area)
+turtle.right(90)
+turtle.forward(radius)
+turtle.left(90)
+turtle.pendown()
+turtle.circle(radius)
+turtle.penup()
+turtle.done()

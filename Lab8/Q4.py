@@ -1,0 +1,5 @@
+name = input("Enter your first name: ")
+lname = input("Enter your lasr name: ")
+gen = input("Enter your gender (m/f): ")
+username = gen.upper() + lname[0].upper() + name[:6].upper()
+print("Your username: "+ username)
